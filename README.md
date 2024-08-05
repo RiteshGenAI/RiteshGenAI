@@ -23,42 +23,42 @@ You can click the Preview link to take a look at your changes.
 
 ```mermaid
 graph LR
-    U[@RiteshGenAI]
-    PI[Personal Information]
-    EX[Experience and Skillsets]
-    LI[LinkedIn]
-    PR[Pronouns: He/Him]
-    FF["Fun fact: 'LEARNING NEVER STOPS UNTIL YOU DIE!'"]
+    U((@RiteshGenAI))
+    PI((Personal Information))
+    EX((Experience and Skillsets))
+    LI((LinkedIn))
+    PR((Pronouns: He/Him))
+    FF(("Fun fact: 'LEARNING NEVER STOPS UNTIL YOU DIE!'"))
 
     U --> PI
     U --> EX
-    PI --> |Interests| I[Large Language Models, NLP, and AI]
-    PI --> |Learning| L[AI, NLP, and Generative AI]
-    PI --> |Collaboration| C[Prompt Engineering, RAG solutions, Production Grade AI Chatbots]
-    PI --> |Contact| LI
+    PI --> I((Interests: Large Language Models, NLP, and AI))
+    PI --> L((Learning: AI, NLP, and Generative AI))
+    PI --> C((Collaboration: Prompt Engineering, RAG solutions, Production Grade AI Chatbots))
+    PI --> LI
     PI --> PR
     PI --> FF
 
-    EX --> PE[Prompt Engineering]
-    EX --> RAG[RAG Solutions]
-    EX --> PG[Production Grade AI Chatbots]
-    EX --> AWS[AWS Expertise]
-    EX --> EP[End-to-End Pipelines]
-    EX --> DE[Data Extraction]
-    EX --> ME[Metadata Extraction]
-    EX --> ETL[ETL Knowledge]
-    EX --> SF[Snowflake and Azure]
+    EX --> PE((Prompt Engineering))
+    EX --> RAG((RAG Solutions))
+    EX --> PG((Production Grade AI Chatbots))
+    EX --> AWS((AWS Expertise))
+    EX --> EP((End-to-End Pipelines))
+    EX --> DE((Data Extraction))
+    EX --> ME((Metadata Extraction))
+    EX --> ETL((ETL Knowledge))
+    EX --> SF((Snowflake and Azure))
 
-    PE --> PEF[Fine-tuning Large Language Models]
-    RAG --> RAGD[Building solutions using LLMs]
-    PG --> PGC[Developing AI chatbots for Q&A]
-    AWS --> AWSH[Hands-on experience with AWS services]
-    EP --> EPC[Creating A2B code converters]
-    DE --> DEX[Extracting data from documents]
-    ME --> MEB[Building extractors using Python and Streamlit]
-    ETL --> ETLB[Proficient in building ETLs]
-    SF --> SFB[Basic knowledge of Snow SQL and Snowflake]
-    SF --> SFA[Experienced in Azure pipeline building]
+    PE --> PEF((Fine-tuning Large Language Models))
+    RAG --> RAGD((Building solutions using LLMs))
+    PG --> PGC((Developing AI chatbots for Q&A))
+    AWS --> AWSH((Hands-on experience with AWS services))
+    EP --> EPC((Creating A2B code converters))
+    DE --> DEX((Extracting data from documents))
+    ME --> MEB((Building extractors using Python and Streamlit))
+    ETL --> ETLB((Proficient in building ETLs))
+    SF --> SFB((Basic knowledge of Snow SQL and Snowflake))
+    SF --> SFA((Experienced in Azure pipeline building))
 
     classDef default fill:#ffffff,stroke:#000000,stroke-width:1px,color:#000000,shape:circle;
     classDef topLevel fill:#f0f0f0,stroke:#000000,stroke-width:2px,color:#000000,shape:circle;
