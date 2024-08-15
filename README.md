@@ -38,3 +38,9 @@ I'm a dynamic and results-driven AI professional with a passion for **Large Lang
 
 ## 😄 Fun Fact:
 **"LEARNING NEVER STOPS UNTIL YOU DIE!"**
+
+## 🎮 Beyond AI
+When I’m not coding or experimenting with AI models, you can find me:
+- **Gaming**: Sharpening my strategy and reflexes in FPS games.
+- **Cooking**: Whipping up something delicious and experimental in the kitchen.
+- **Sketching**: Bringing ideas to life on paper.
