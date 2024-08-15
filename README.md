@@ -1,4 +1,4 @@
-# 👋 Hello, I'm [@RiteshGenAI](https://github.com/RiteshGenAI) - Ritesh Patil
+# 👋 Hello, I'm Ritesh Patil - [@RiteshGenAI](https://github.com/RiteshGenAI)
 
 ## 🧑‍💻 About Me:
 I'm a dynamic and results-driven AI professional with a passion for **Large Language Models (LLMs)**, **Generative AI**, **NLP**, and **AI Ecosystems**. With over 3+ years of hands-on experience, I've honed my skills in Python development, ETL processes, and AI integration, delivering successful projects across diverse domains like **Finance & Banking**, **Legal**, and **Pharmaceuticals**.
