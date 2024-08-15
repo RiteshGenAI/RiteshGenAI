@@ -34,7 +34,7 @@ I'm a dynamic and results-driven AI professional with a passion for **Large Lang
 - **Databases**: Neo4j, Faiss, Qdrant, ChromaDB, Amazon Neptune
 
 ## 🌍 Let's Connect:
-- **LinkedIn**: [riteshpatil-genai](https://www.linkedin.com/in/ritesh-patil-39a1031a6)
+- **LinkedIn**: [Ritesh Patil](https://www.linkedin.com/in/ritesh-patil-39a1031a6)
 
 ## 😄 Fun Fact:
 **"LEARNING NEVER STOPS UNTIL YOU DIE!"**
