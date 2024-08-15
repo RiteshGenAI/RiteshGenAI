@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @RiteshGenAI, People know me by: Ritesh Patil.
-- 👀 I’m interested in Large Language Models, NLP, and AI.
+- 👀 I’m interested in Large Language Models, GenAI, NLP, and AI.
 - 🌱 I’m currently learning more about AI, NLP, and cutting-edge technologies in Generative AI.
-- 💞️ I’m looking to collaborate on projects related to Prompt Engineering, RAG solutions, and Production Grade AI Chatbots.
+- 💞️ I’m looking to collaborate on projects related to Prompt Engineering, RAG solutions, AI Agents, AI Ecosystems, and Production Grade AI Chatbots.
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/ritesh-patil-39a1031a6/)
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: "LEARNING NEVER STOPS UNTIL YOU DIE!"
