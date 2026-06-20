@@ -3,7 +3,7 @@
 #### 🌐 *Core Team Member & Secretary @ AI Anytime*
 
 <p align="center">
-  <a href="https://linkedin.com/in/ritesh-patil-genai"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/ritesh-patil-39a1031a6"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/RiteshGenAI"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="mailto:ritesh.patil@nttdata.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
@@ -68,6 +68,6 @@ An advanced enterprise RAG system that extracts, parses, and structures informat
 I am always open to collaborating on **Generative AI design patterns, AI Agent reliability, production RAG pipelines, or responsible AI practices**.
 
 *   💬 Ask me about: **LLMs, RAG, Prompt Engineering, Agentic Workflows, AI Anytime, and Cloud Architecture**
-*   📫 How to reach me: Connect on [LinkedIn](https://linkedin.com/in/ritesh-patil-genai) or drop me an email!
+*   📫 How to reach me: Connect on [LinkedIn](https://www.linkedin.com/in/ritesh-patil-39a1031a6) or drop me an email!
 
 <p align="right">(<i>Last updated: June 2026</i>)</p>
