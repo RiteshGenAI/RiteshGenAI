@@ -1,5 +1,6 @@
 # 🚀 Hi, I'm Ritesh Patil! 
 ### **Lead / Senior AI Engineer @ Generative AI Center of Excellence (GenAICoE), NTT DATA**
+#### 🌐 *Core Team Member & Secretary @ AI Anytime*
 
 <p align="center">
   <a href="https://linkedin.com/in/ritesh-patil-genai"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -10,13 +11,14 @@
 ---
 
 ## 🌟 About Me
-I am a passionate **AI Specialist & Engineer** with over 3 years of hands-on experience designing, developing, and deploying enterprise-grade **Generative AI (GenAI)**, **LLM Orchestration**, and **Large-scale RAG (Retrieval-Augmented Generation)** architectures. 
+I am a dedicated **AI Specialist & Engineer** with over 3.5+ years of experience building and deploying robust, production-grade **Generative AI (GenAI)** ecosystems, **LLM orchestrations**, and advanced **Retrieval-Augmented Generation (RAG)** systems. 
 
-Currently, at **NTT DATA's Generative AI Center of Excellence (GenAICoE)**, I lead the development of robust AI solutions, LLM routing gateways, and autonomous multi-agent systems designed to address complex business needs in industries like Finance, Banking, Legal, and Pharmaceuticals.
+Currently, at **NTT DATA's Generative AI Center of Excellence (GenAICoE)**, I lead the development of secure, scalable, and cost-efficient LLM routing gateways and autonomous agent workflows designed to solve high-impact problems across industries like Finance, Banking, Legal, and Pharmaceuticals. Prior to NTT DATA, I served as an Associate Consultant and GenAI Engineer at **Capgemini's Insights & Data GenAI Center of Excellence**.
 
-*   🎓 **Education**: M.Sc. in Data Science — **Liverpool John Moores University (LJMU), London**
-*   🏆 **Recognition**: Recipient of the **"Mission Impossible Award"** & 2-Time **"Millennial of the Quarter"** for outstanding contributions to mission-critical internal POCs and client delivery.
-*   💡 **Current Focus**: Building secure, scalable, and cost-efficient LLM infrastructure, multi-agent frameworks, and advanced safety/evaluation guardrails for LLMs.
+*   🎓 **Education**: M.Sc. in Data Science (Specialization in AI & NLP) — **Liverpool John Moores University (LJMU), London**
+*   🤝 **Community**: Core Team Member & Secretary at **AI Anytime**, a non-profit AI research and education community focused on making AI learning accessible and responsible.
+*   🏆 **Recognition**: Recipient of the **"Mission Impossible Award"** & 2-Time **"Millennial of the Quarter"** for outstanding delivery on client projects and internal POCs.
+*   💡 **Beyond Code**: When I am not building agents, you can find me hosting/streaming on YouTube, exploring responsible AI development, gaming, or writing about AI tech.
 
 ---
 
@@ -24,12 +26,12 @@ Currently, at **NTT DATA's Generative AI Center of Excellence (GenAICoE)**, I le
 
 | Category | Technologies & Tooling |
 | :--- | :--- |
-| **Generative AI & LLMs** | GPT-4/3.5, Gemini 1.5 Pro/Flash, Claude 3.5 Sonnet, Azure OpenAI, Bedrock, Llama 3, Prompt Engineering |
-| **AI Orchestration & Agents** | LangChain, LlamaIndex, CrewAI, AutoGen, LangGraph, Custom Agent Orchestrations |
+| **Generative AI & LLMs** | GPT-4/3.5, Gemini 1.5 Pro/Flash, Claude 3.5 Sonnet, Llama 3, Azure OpenAI, AWS Bedrock, Prompt Engineering |
+| **AI Orchestration & Agents** | LangChain, LlamaIndex, CrewAI, AutoGen, LangGraph, Custom Agentic Systems |
 | **Backend & Development** | Python, FastAPI, Flask, Streamlit, Node.js, RESTful APIs |
 | **Data & Databases** | SQL, MySQL, Neo4j (Graph DB), Snowflake, PostgreSQL |
-| **Vector DBs & RAG** | Qdrant, ChromaDB, Pinecone, FAISS, Advanced Chunking & Retrieval Strategies |
-| **Cloud & DevOps** | AWS (SageMaker, Bedrock, ECS, Lambda), Microsoft Azure, Docker, Docker Compose, CI/CD |
+| **Vector DBs & RAG** | Qdrant, ChromaDB, Pinecone, FAISS, Advanced Chunking & Metadata filtering |
+| **Cloud & DevOps** | AWS (SageMaker, Bedrock, ECS, Lambda), Microsoft Azure (VMs, Databricks), Docker, CI/CD |
 
 ---
 
@@ -62,10 +64,10 @@ An advanced enterprise RAG system that extracts, parses, and structures informat
 
 ---
 
-## 🤝 Let's Collaborate!
-I am always open to discussing **Generative AI design patterns, AI Agent reliability, production RAG pipelines,** or any exciting enterprise technology challenges.
+## 🤝 Let's Connect & Collaborate!
+I am always open to collaborating on **Generative AI design patterns, AI Agent reliability, production RAG pipelines, or responsible AI practices**.
 
-*   💬 Ask me about: **LLMs, RAG, Prompt Engineering, Agentic Workflows, and Cloud Architecture**
+*   💬 Ask me about: **LLMs, RAG, Prompt Engineering, Agentic Workflows, AI Anytime, and Cloud Architecture**
 *   📫 How to reach me: Connect on [LinkedIn](https://linkedin.com/in/ritesh-patil-genai) or drop me an email!
 
 <p align="right">(<i>Last updated: June 2026</i>)</p>
