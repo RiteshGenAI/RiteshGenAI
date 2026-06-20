@@ -1,0 +1,84 @@
+name: Update Dynamic Repositories
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: # Allows manual trigger
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-device: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Fetch and Update Repositories
+        run: |
+          python -c "
+          import requests
+          import re
+
+          # Fetch public repositories for user RiteshGenAI
+          url = 'https://api.github.com/users/RiteshGenAI/repos?sort=updated&per_page=50'
+          response = requests.get(url)
+          repos = response.json()
+
+          if not isinstance(repos, list):
+              print('Error fetching repos:', repos)
+              exit(1)
+
+          # Filter out the profile README repository itself and forks
+          filtered = [r for r in repos if r['name'].lower() != 'riteshgenai' and not r['fork']]
+
+          # Sort by stars first, then by most recently updated
+          filtered.sort(key=lambda r: (r.get('stargazers_count', 0), r.get('updated_at', '')), reverse=True)
+
+          # Take the top 4 repositories
+          top_repos = filtered[:4]
+
+          # Generate pin cards layout
+          html = '<p align="center">\n'
+          for repo in top_repos:
+              name = repo['name']
+              html += f'  <a href=\"https://github.com/RiteshGenAI/{name}\">\n'
+              html += f'    <img src=\"https://github-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo={name}&theme=calm\" height=\"120\" />\n'
+              html += '  </a>\n'
+          html += '</p>'
+
+          # Read current README.md
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+
+          # Replace the content between the comments
+          pattern = r'<!-- RECENT_REPOS_START -->.*?<!-- RECENT_REPOS_END -->'
+          replacement = f'<!-- RECENT_REPOS_START -->\n{html}\n<!-- RECENT_REPOS_END -->'
+          new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
+          # Write back to README.md
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(new_content)
+          "
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff-index --quiet HEAD || git commit -m "docs: auto-update featured repositories [skip ci]"
+          git push
