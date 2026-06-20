@@ -53,17 +53,15 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 
 ## 🛡️ Featured Projects
 
-### **[Sentinel (LLM Gateway & Cost Intelligence)](https://github.com/RiteshGenAI/RiteshGenAI)**
-An enterprise-grade **Cost Intelligence Platform & LLM Gateway** that intercepts completion calls to enforce real-time spending limits, manage provider credentials (Gemini, OpenAI, Anthropic), and project 30-day forecasted budgets.
-*   *Tech Stack*: FastAPI, PostgreSQL, React, TypeScript, TailwindCSS, Docker, Recharts.
+<p align="center">
+  <a href="https://github.com/RiteshGenAI/CodeGenie">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=CodeGenie&theme=calm" />
+  </a>
+</p>
 
-### **Multilingual Book & Document Translator**
-High-fidelity, layout-preserving AI translation engine tailored for complex PDF documents, utilizing LLMs for context-aware localization.
-*   *Tech Stack*: Python, LangChain, Azure Document Intelligence, Streamlit.
-
-### **Legal & Financial Document RAG Platform**
-An advanced enterprise RAG system that extracts, parses, and structures information from massive legal contracts and financial sheets with citation verification.
-*   *Tech Stack*: LlamaIndex, Qdrant, Neo4j Graph RAG, FastAPI.
+<p align="center">
+  👉 <b>Explore all my public repositories: <a href="https://github.com/RiteshGenAI?tab=repositories">github.com/RiteshGenAI</a></b>
+</p>
 
 ---
 
