@@ -54,12 +54,15 @@ An advanced enterprise RAG system that extracts, parses, and structures informat
 ## 📊 GitHub Analytics & Insights
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true" alt="Ritesh's GitHub Stats" height="195" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RiteshGenAI&layout=compact&theme=calm" alt="Top Languages" height="195" />
+  <img src="https://github-readme-stats.vercel.app/api?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true" alt="Ritesh's GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RiteshGenAI&theme=calm" alt="GitHub Streak" height="195" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RiteshGenAI&theme=calm" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RiteshGenAI&theme=calm" alt="GitHub Streak" />
 </p>
 
 ---
