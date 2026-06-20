@@ -1,46 +1,71 @@
-# 👋 Hello, I'm Ritesh Patil - [@RiteshGenAI](https://github.com/RiteshGenAI)
+# 🚀 Hi, I'm Ritesh Patil! 
+### **Lead / Senior AI Engineer @ Generative AI Center of Excellence (GenAICoE), NTT DATA**
 
-## 🧑‍💻 About Me:
-I'm a dynamic and results-driven AI professional with a passion for **Large Language Models (LLMs)**, **Generative AI**, **NLP**, and **AI Ecosystems**. With over 3+ years of hands-on experience, I've honed my skills in Python development, ETL processes, and AI integration, delivering successful projects across diverse domains like **Finance & Banking**, **Legal**, and **Pharmaceuticals**.
+<p align="center">
+  <a href="https://linkedin.com/in/ritesh-patil-genai"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/RiteshGenAI"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:ritesh.patil@nttdata.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
-🌱 **Currently Learning**: I'm diving deeper into cutting-edge technologies in Generative AI, expanding my expertise in **LLMs**, **Prompt Engineering**, and **RAG**.
+---
 
-💼 **Professional Background**: I’ve played key roles in projects ranging from AI-driven translation systems to voice-enabled chatbots and legal document analysis. My innovations have reduced costs, increased accuracy, and improved efficiency across various AI applications.
+## 🌟 About Me
+I am a passionate **AI Specialist & Engineer** with over 3 years of hands-on experience designing, developing, and deploying enterprise-grade **Generative AI (GenAI)**, **LLM Orchestration**, and **Large-scale RAG (Retrieval-Augmented Generation)** architectures. 
 
-🎯 **Looking to Collaborate On**:
-- **Prompt Engineering**: Fine-tuning and optimizing LLMs for diverse applications.
-- **RAG Solutions**: Building robust Retrieval-Augmented Generation systems.
-- **AI Agents & Ecosystems**: Developing AI systems that continuously learn and improve.
-- **Production Grade AI Chatbots**: Creating chatbots for complex, real-world applications.
+Currently, at **NTT DATA's Generative AI Center of Excellence (GenAICoE)**, I lead the development of robust AI solutions, LLM routing gateways, and autonomous multi-agent systems designed to address complex business needs in industries like Finance, Banking, Legal, and Pharmaceuticals.
 
-## 💡 Expertise & Skillsets:
-- **Generative AI**: Mastery in LLMs (OpenAI, Azure OpenAI, Anthropic, Google), Prompt Engineering, RAG solutions, and more.
-- **Cloud Platforms**: Extensive experience with AWS (S3, EC2, SageMaker, Bedrock), Microsoft Azure (VMs, Databricks, Azure OpenAI).
-- **Python & UI Development**: Proficient in scripting, Flask, FastAPI, and Streamlit.
-- **Data Processing**: Expertise in SQL, MySQL, Neo4j, Snowflake, Informatica, and ETL automation.
-- **AI Frameworks**: Skilled in using Langchain, LlamaIndex for AI development.
-- **Multilingual AI**: Experienced in building multilingual AI systems, including voice-enabled interfaces.
+*   🎓 **Education**: M.Sc. in Data Science — **Liverpool John Moores University (LJMU), London**
+*   🏆 **Recognition**: Recipient of the **"Mission Impossible Award"** & 2-Time **"Millennial of the Quarter"** for outstanding contributions to mission-critical internal POCs and client delivery.
+*   💡 **Current Focus**: Building secure, scalable, and cost-efficient LLM infrastructure, multi-agent frameworks, and advanced safety/evaluation guardrails for LLMs.
 
-## 🏆 Achievements:
-- **Mission Impossible Award**: Recognized for exceptional delivery of AI solutions.
-- **Two-Time Millennial of the Quarter**: Awarded for outstanding contributions to internal POCs and client projects.
-- **AI-Driven Innovations**: Led projects that significantly reduced costs, improved accuracy, and streamlined processes.
+---
 
-## 🛠️ Tech Stack:
-- **Languages**: Python, SQL, Snowflake SQL
-- **AI Tools**: OpenAI, Azure OpenAI, Anthropic, Langchain
-- **Cloud**: AWS, Microsoft Azure
-- **Development Tools**: Docker, Git, GitHub, VS Code, PyCharm
-- **Databases**: Neo4j, Faiss, Qdrant, ChromaDB, Amazon Neptune
+## 🛠️ Tech Stack & Capabilities
 
-## 🌍 Let's Connect:
-- **LinkedIn**: [Ritesh Patil](https://www.linkedin.com/in/ritesh-patil-39a1031a6)
+| Category | Technologies & Tooling |
+| :--- | :--- |
+| **Generative AI & LLMs** | GPT-4/3.5, Gemini 1.5 Pro/Flash, Claude 3.5 Sonnet, Azure OpenAI, Bedrock, Llama 3, Prompt Engineering |
+| **AI Orchestration & Agents** | LangChain, LlamaIndex, CrewAI, AutoGen, LangGraph, Custom Agent Orchestrations |
+| **Backend & Development** | Python, FastAPI, Flask, Streamlit, Node.js, RESTful APIs |
+| **Data & Databases** | SQL, MySQL, Neo4j (Graph DB), Snowflake, PostgreSQL |
+| **Vector DBs & RAG** | Qdrant, ChromaDB, Pinecone, FAISS, Advanced Chunking & Retrieval Strategies |
+| **Cloud & DevOps** | AWS (SageMaker, Bedrock, ECS, Lambda), Microsoft Azure, Docker, Docker Compose, CI/CD |
 
-## 😄 Fun Fact:
-**"LEARNING NEVER STOPS UNTIL YOU DIE!"**
+---
 
-## 🎮 Beyond AI
-When I’m not coding or experimenting with AI models, you can find me:
-- **Gaming**: Sharpening my strategy and reflexes in FPS games.
-- **Cooking**: Whipping up something delicious and experimental in the kitchen.
-- **Sketching**: Bringing ideas to life on paper.
+## 🚀 Featured Projects
+
+### 🛡️ **[Sentinel (LLM Gateway & Cost Intelligence)](https://github.com/RiteshGenAI/RiteshGenAI)**
+An enterprise-grade **Cost Intelligence Platform & LLM Gateway** that intercepts completion calls to enforce real-time spending limits, manage provider credentials (Gemini, OpenAI, Anthropic), and project 30-day forecasted budgets.
+*   *Tech Stack*: FastAPI, PostgreSQL, React, TypeScript, TailwindCSS, Docker, Recharts.
+
+### 🌎 **Multilingual Book & Document Translator**
+High-fidelity, layout-preserving AI translation engine tailored for complex PDF documents, utilizing LLMs for context-aware localization.
+*   *Tech Stack*: Python, LangChain, Azure Document Intelligence, Streamlit.
+
+### ⚖️ **Legal & Financial Document RAG Platform**
+An advanced enterprise RAG system that extracts, parses, and structures information from massive legal contracts and financial sheets with citation verification.
+*   *Tech Stack*: LlamaIndex, Qdrant, Neo4j Graph RAG, FastAPI.
+
+---
+
+## 📊 GitHub Analytics & Insights
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true" alt="Ritesh's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RiteshGenAI&layout=compact&theme=calm" alt="Top Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RiteshGenAI&theme=calm" alt="GitHub Streak" />
+</p>
+
+---
+
+## 🤝 Let's Collaborate!
+I am always open to discussing **Generative AI design patterns, AI Agent reliability, production RAG pipelines,** or any exciting enterprise technology challenges.
+
+*   💬 Ask me about: **LLMs, RAG, Prompt Engineering, Agentic Workflows, and Cloud Architecture**
+*   📫 How to reach me: Connect on [LinkedIn](https://linkedin.com/in/ritesh-patil-genai) or drop me an email!
+
+<p align="right">(<i>Last updated: June 2026</i>)</p>
