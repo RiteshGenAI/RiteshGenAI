@@ -11,7 +11,7 @@
 ---
 
 ## 🌟 About Me
-I am a dedicated **AI Specialist & Engineer** with over 3.5+ years of experience building and deploying robust, production-grade **Generative AI (GenAI)** ecosystems, **LLM orchestrations**, and advanced **Retrieval-Augmented Generation (RAG)** systems. 
+I am a dedicated **AI Specialist & Engineer** with over 5+ years of experience building and deploying robust, production-grade **Generative AI (GenAI)** ecosystems, **LLM orchestrations**, and advanced **Retrieval-Augmented Generation (RAG)** systems. 
 
 Currently, at **NTT DATA's Generative AI Center of Excellence (GenAICoE)**, I lead the development of secure, scalable, and cost-efficient LLM routing gateways and autonomous agent workflows designed to solve high-impact problems across industries like Finance, Banking, Legal, and Pharmaceuticals. Prior to NTT DATA, I served as an Associate Consultant and GenAI Engineer at **Capgemini's Insights & Data GenAI Center of Excellence**.
 
@@ -26,12 +26,12 @@ Currently, at **NTT DATA's Generative AI Center of Excellence (GenAICoE)**, I le
 
 | Category | Technologies & Tooling |
 | :--- | :--- |
-| **Generative AI & LLMs** | GPT-4/3.5, Gemini 1.5 Pro/Flash, Claude 3.5 Sonnet, Llama 3, Azure OpenAI, AWS Bedrock, Prompt Engineering |
-| **AI Orchestration & Agents** | LangChain, LlamaIndex, CrewAI, AutoGen, LangGraph, Custom Agentic Systems |
-| **Backend & Development** | Python, FastAPI, Flask, Streamlit, Node.js, RESTful APIs |
-| **Data & Databases** | SQL, MySQL, Neo4j (Graph DB), Snowflake, PostgreSQL |
-| **Vector DBs & RAG** | Qdrant, ChromaDB, Pinecone, FAISS, Advanced Chunking & Metadata filtering |
-| **Cloud & DevOps** | AWS (SageMaker, Bedrock, ECS, Lambda), Microsoft Azure (VMs, Databricks), Docker, CI/CD |
+| **Generative AI & LLMs** | ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white) ![Anthropic Claude](https://img.shields.io/badge/Anthropic_Claude-D97706?style=flat-square&logo=anthropic&logoColor=white) ![Llama 3](https://img.shields.io/badge/Llama_3-044F88?style=flat-square&logo=meta&logoColor=white) ![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0089D6?style=flat-square&logo=microsoftazure&logoColor=white) ![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=flat-square&logo=amazonaws&logoColor=white) |
+| **AI Orchestration & Agents** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3A?style=flat-square&logo=chainlink&logoColor=white) ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-0052CC?style=flat-square) ![CrewAI](https://img.shields.io/badge/CrewAI-FF3E00?style=flat-square) ![AutoGen](https://img.shields.io/badge/AutoGen-0078D4?style=flat-square&logo=microsoft&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square) |
+| **Backend & Development** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) |
+| **Data & Databases** | ![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white) ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) |
+| **Vector DBs & RAG** | ![Qdrant](https://img.shields.io/badge/Qdrant-FF007F?style=flat-square&logo=qdrant&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-3A86FF?style=flat-square) ![Pinecone](https://img.shields.io/badge/Pinecone-121212?style=flat-square) |
+| **Cloud & DevOps** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoftazure&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI/CD-FF6F61?style=flat-square) |
 
 ---
 
