@@ -18,23 +18,23 @@ I am an engineer who went from writing ETL pipelines to architecting systems tha
 
 I don't just build chatbots or AI copilots. **I build complete products.** From architecture and data pipelines to cloud infra, APIs, AI orchestration, deployment, and optimization — I enjoy owning the entire lifecycle of intelligent systems.
 
-*   🎓 **Education**: M.Sc. in Data Science (AI & NLP) — **Liverpool John Moores University (LJMU), London**
-*   🏆 **Recognition**: Recipient of the **"Mission Impossible Award"** & 2-Time **"Millennial of the Quarter"**
-*   🤝 **Community**: Secretary at **AI Anytime** (Non-profit AI research & education community)
-*   💡 **Commute Routine**: I read research papers during commutes and constantly explore new ways of combining AI, software engineering, and cloud technologies.
+🎓 **Education**: M.Sc. in Data Science (AI & NLP) — **Liverpool John Moores University (LJMU), London**  
+🏆 **Recognition**: Recipient of the **"Mission Impossible Award"** & 2-Time **"Millennial of the Quarter"**  
+🤝 **Community**: Secretary at **AI Anytime** (Non-profit AI research & education community)  
+💡 **Commute Routine**: I read research papers during commutes and constantly explore new ways of combining AI, software engineering, and cloud technologies.  
 
 ---
 
 ## 🚀 What I've Built Over The Years
 
-*   🔸 **Enterprise GenAI Platforms** & AI products on AWS and Azure-native services.
-*   🔸 **Agentic AI & Multi-Agent Systems** that automate complex business workflows.
-*   🔸 **RAG, GraphRAG, and Multimodal AI** applications.
-*   🔸 **Intelligent Document Processing** (IDP) and enterprise knowledge systems.
-*   🔸 **Translation** and multilingual NLP platforms.
-*   🔸 **AI-Powered Code Generation** and legacy modernization solutions.
-*   🔸 **Resume Intelligence** and recommendation engines.
-*   🔸 **Knowledge Graphs** and vector-powered retrieval systems.
+🔸 **Enterprise GenAI Platforms** & AI products on AWS and Azure-native services.  
+🔸 **Agentic AI & Multi-Agent Systems** that automate complex business workflows.  
+🔸 **RAG, GraphRAG, and Multimodal AI** applications.  
+🔸 **Intelligent Document Processing** (IDP) and enterprise knowledge systems.  
+🔸 **Translation** and multilingual NLP platforms.  
+🔸 **AI-Powered Code Generation** and legacy modernization solutions.  
+🔸 **Resume Intelligence** and recommendation engines.  
+🔸 **Knowledge Graphs** and vector-powered retrieval systems.  
 
 ---
 
