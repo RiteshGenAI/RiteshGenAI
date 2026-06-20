@@ -53,11 +53,8 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 
 ## 🛡️ Featured Projects
 
-<p align="center">
-  <a href="https://github.com/RiteshGenAI/CodeGenie">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=CodeGenie&theme=calm" />
-  </a>
-</p>
+<!-- RECENT_REPOS_START -->
+<!-- RECENT_REPOS_END -->
 
 <p align="center">
   👉 <b>Explore all my public repositories: <a href="https://github.com/RiteshGenAI?tab=repositories">github.com/RiteshGenAI</a></b>
