@@ -11,7 +11,7 @@
 ---
 
 ## 🌟 About Me
-I am a dedicated **AI Specialist & Engineer** with over 5+ years of experience building and deploying robust, production-grade **Generative AI (GenAI)** ecosystems, **LLM orchestrations**, and advanced **Retrieval-Augmented Generation (RAG)** systems. 
+I am a dedicated **AI Specialist & Engineer** with over 3.5+ years of experience building and deploying robust, production-grade **Generative AI (GenAI)** ecosystems, **LLM orchestrations**, and advanced **Retrieval-Augmented Generation (RAG)** systems. 
 
 Currently, at **NTT DATA's Generative AI Center of Excellence (GenAICoE)**, I lead the development of secure, scalable, and cost-efficient LLM routing gateways and autonomous agent workflows designed to solve high-impact problems across industries like Finance, Banking, Legal, and Pharmaceuticals. Prior to NTT DATA, I served as an Associate Consultant and GenAI Engineer at **Capgemini's Insights & Data GenAI Center of Excellence**.
 
