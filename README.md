@@ -92,6 +92,18 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 </p>
 <!-- STREAK_END -->
 
+## 🧩 GitHub Data
+
+<!-- GITHUB_DATA_START -->
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RiteshGenAI&theme=calm" height="200" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RiteshGenAI&theme=calm" height="200" />
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RiteshGenAI&theme=calm" height="220" />
+</p>
+<!-- GITHUB_DATA_END -->
+
 ---
 
 ## 🤝 Let's Connect & Collaborate!
