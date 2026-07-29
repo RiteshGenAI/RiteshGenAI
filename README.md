@@ -58,11 +58,14 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
   <a href="https://github.com/RiteshGenAI/CodeGenie">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=CodeGenie&theme=calm" height="120" />
   </a>
-  <a href="https://github.com/RiteshGenAI/openai_whisper_transcribe_yt_videos">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=openai_whisper_transcribe_yt_videos&theme=calm" height="120" />
+  <a href="https://github.com/RiteshGenAI/AIAgencyOS">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=AIAgencyOS&theme=calm" height="120" />
   </a>
   <a href="https://github.com/RiteshGenAI/Sentinel">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=Sentinel&theme=calm" height="120" />
+  </a>
+  <a href="https://github.com/RiteshGenAI/openai_whisper_transcribe_yt_videos">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=openai_whisper_transcribe_yt_videos&theme=calm" height="120" />
   </a>
 </p>
 <!-- RECENT_REPOS_END -->
