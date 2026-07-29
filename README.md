@@ -108,6 +108,11 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RiteshGenAI&theme=calm" height="220" />
 </p>
+<p align="center">
+  <a href="https://u8views.com/github/RiteshGenAI">
+    <img src="https://u8views.com/api/v1/github/profiles/174084256/views/day-week-month-total-count.svg" alt="GitHub Profile Views" />
+  </a>
+</p>
 <!-- GITHUB_DATA_END -->
 
 ---
