@@ -110,7 +110,7 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 </p>
 <p align="center">
   <a href="https://u8views.com/github/RiteshGenAI">
-    <img src="https://u8views.com/api/v1/github/profiles/174084256/views/day-week-month-total-count.svg" alt="GitHub Profile Views" />
+    <img src="https://u8views.com/api/v1/github/profiles/174084256/views/day-week-month-total-count.svg" alt="Ritesh Patil profile views" />
   </a>
 </p>
 <!-- GITHUB_DATA_END -->
