@@ -1,5 +1,8 @@
 name: Update Dynamic Repositories
 
+# This workflow updates the README with dynamic content
+# It runs daily at midnight UTC and on manual trigger
+
 on:
   schedule:
     - cron: '0 0 * * *' # Runs daily at midnight UTC
