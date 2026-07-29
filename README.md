@@ -56,16 +56,16 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 <!-- RECENT_REPOS_START -->
 <p align="center">
   <a href="https://github.com/RiteshGenAI/CodeGenie">
-    <img src="https://github-readme-stats.deno.dev/api/pin/?username=RiteshGenAI&repo=CodeGenie&theme=calm" height="120" />
+    <img src="https://gh-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=CodeGenie&theme=calm" height="120" />
   </a>
   <a href="https://github.com/RiteshGenAI/AIAgencyOS">
-    <img src="https://github-readme-stats.deno.dev/api/pin/?username=RiteshGenAI&repo=AIAgencyOS&theme=calm" height="120" />
+    <img src="https://gh-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=AIAgencyOS&theme=calm" height="120" />
   </a>
   <a href="https://github.com/RiteshGenAI/Sentinel">
-    <img src="https://github-readme-stats.deno.dev/api/pin/?username=RiteshGenAI&repo=Sentinel&theme=calm" height="120" />
+    <img src="https://gh-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=Sentinel&theme=calm" height="120" />
   </a>
   <a href="https://github.com/RiteshGenAI/openai_whisper_transcribe_yt_videos">
-    <img src="https://github-readme-stats.deno.dev/api/pin/?username=RiteshGenAI&repo=openai_whisper_transcribe_yt_videos&theme=calm" height="120" />
+    <img src="https://gh-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=openai_whisper_transcribe_yt_videos&theme=calm" height="120" />
   </a>
 </p>
 <!-- RECENT_REPOS_END -->
@@ -79,15 +79,15 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 ## 📊 GitHub Analytics & Insights
 
 <p align="center">
-  <img src="https://github-readme-stats.deno.dev/api?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true" alt="Ritesh's GitHub Stats" />
+  <img src="https://gh-readme-stats.vercel.app/api?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true" alt="Ritesh's GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.deno.dev/api/top-langs/?username=RiteshGenAI&theme=calm" alt="Top Languages" />
+  <img src="https://gh-readme-stats.vercel.app/api/top-langs/?username=RiteshGenAI&theme=calm" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.deno.dev/?user=RiteshGenAI&theme=calm" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=RiteshGenAI&theme=calm" alt="GitHub Streak" />
 </p>
 
 ---

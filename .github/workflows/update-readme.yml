@@ -59,7 +59,7 @@ jobs:
           for repo in top_repos:
               name = repo['name']
               html += f'  <a href=\"https://github.com/RiteshGenAI/{name}\">\n'
-              html += f'    <img src=\"https://github-readme-stats.deno.dev/api/pin/?username=RiteshGenAI&repo={name}&theme=calm\" height=\"120\" />\n'
+              html += f'    <img src=\"https://gh-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo={name}&theme=calm\" height=\"120\" />\n'
               html += '  </a>\n'
           html += '</p>'
 
