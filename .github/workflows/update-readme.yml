@@ -91,15 +91,17 @@ jobs:
 
           # Update GitHub data cards back to working external URLs
           pattern_cards = r'<!-- GITHUB_DATA_START -->.*?<!-- GITHUB_DATA_END -->'
-          replacement_cards = '''<!-- GITHUB_DATA_START -->
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RiteshGenAI&theme=calm" height="200" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RiteshGenAI&theme=calm" height="200" />
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RiteshGenAI&theme=calm" height="220" />
-</p>
-<!-- GITHUB_DATA_END -->'''
+          replacement_cards = (
+              '<!-- GITHUB_DATA_START -->\n'
+              '<p align="center">\n'
+              '  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RiteshGenAI&theme=calm" height="200" />\n'
+              '  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RiteshGenAI&theme=calm" height="200" />\n'
+              '</p>\n'
+              '<p align="center">\n'
+              '  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RiteshGenAI&theme=calm" height="220" />\n'
+              '</p>\n'
+              '<!-- GITHUB_DATA_END -->'
+          )
           new_content = re.sub(pattern_cards, replacement_cards, new_content, flags=re.DOTALL)
 
           # Write back to README.md
