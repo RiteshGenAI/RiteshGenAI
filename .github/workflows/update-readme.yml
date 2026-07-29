@@ -63,14 +63,28 @@ jobs:
               html += '  </a>\n'
           html += '</p>'
 
+          # Generate streak element with cache-buster
+          import time
+          cache_bust = int(time.time())
+          streak_html = (
+              '<p align=\"center\">\n'
+              f'  <img src=\"https://streak-stats.demolab.com/?user=RiteshGenAI&theme=calm&{cache_bust}\"'
+              ' alt=\"GitHub Streak\" />\n'
+              '</p>'
+          )
+
           # Read current README.md
           with open('README.md', 'r', encoding='utf-8') as f:
               content = f.read()
 
-          # Replace the content between the comments
-          pattern = r'<!-- RECENT_REPOS_START -->.*?<!-- RECENT_REPOS_END -->'
-          replacement = f'<!-- RECENT_REPOS_START -->\\n{html}\\n<!-- RECENT_REPOS_END -->'
-          new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+          # Replace both featured repos and streak stats
+          pattern_repos = r'<!-- RECENT_REPOS_START -->.*?<!-- RECENT_REPOS_END -->'
+          replacement_repos = f'<!-- RECENT_REPOS_START -->\\n{html}\\n<!-- RECENT_REPOS_END -->'
+          new_content = re.sub(pattern_repos, replacement_repos, content, flags=re.DOTALL)
+
+          pattern_streak = r'<!-- STREAK_START -->.*?<!-- STREAK_END -->'
+          replacement_streak = f'<!-- STREAK_START -->\\n{streak_html}\\n<!-- STREAK_END -->'
+          new_content = re.sub(pattern_streak, replacement_streak, new_content, flags=re.DOTALL)
 
           # Write back to README.md
           with open('README.md', 'w', encoding='utf-8') as f:
