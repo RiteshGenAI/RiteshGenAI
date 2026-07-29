@@ -89,6 +89,20 @@ jobs:
           replacement_streak = f'<!-- STREAK_START -->\\n{streak_html}\\n<!-- STREAK_END -->'
           new_content = re.sub(pattern_streak, replacement_streak, new_content, flags=re.DOTALL)
 
+          # Update GitHub stats and top-langs cards with cache-buster
+          import time
+          cache_bust = int(time.time())
+          new_content = re.sub(
+              r'(<img src="https://gh-readme-stats\.vercel\.app/api\?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true")',
+              f'\\1&{cache_bust}',
+              new_content
+          )
+          new_content = re.sub(
+              r'(<img src="https://gh-readme-stats\.vercel\.app/api/top-langs/\?username=RiteshGenAI&theme=calm&langs_count=10")',
+              f'\\1&{cache_bust}',
+              new_content
+          )
+
           # Update GitHub data cards back to working external URLs
           pattern_cards = r'<!-- GITHUB_DATA_START -->.*?<!-- GITHUB_DATA_END -->'
           replacement_cards = (
