@@ -87,7 +87,7 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=RiteshGenAI&theme=calm" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=RiteshGenAI&theme=calm&cache_bust=1" alt="GitHub Streak" />
 </p>
 
 ---
