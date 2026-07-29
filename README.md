@@ -83,7 +83,7 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 </p>
 
 <p align="center">
-  <img src="https://gh-readme-stats.vercel.app/api/top-langs/?username=RiteshGenAI&theme=calm" alt="Top Languages" />
+  <img src="https://gh-readme-stats.vercel.app/api/top-langs/?username=RiteshGenAI&theme=calm&langs_count=10" alt="Top Languages / Most Used Stack" />
 </p>
 
 <!-- STREAK_START -->
