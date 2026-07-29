@@ -79,15 +79,15 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 ## 📊 GitHub Analytics & Insights
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true" alt="Ritesh's GitHub Stats" />
+  <img src="https://github-readme-stats.deno.dev/api?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true" alt="Ritesh's GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RiteshGenAI&theme=calm" alt="Top Languages" />
+  <img src="https://github-readme-stats.deno.dev/api/top-langs/?username=RiteshGenAI&theme=calm" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RiteshGenAI&theme=calm" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.deno.dev/?user=RiteshGenAI&theme=calm" alt="GitHub Streak" />
 </p>
 
 ---

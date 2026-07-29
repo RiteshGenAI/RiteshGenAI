@@ -53,11 +53,11 @@ jobs:
           top_repos = filtered[:4]
 
           # Generate pin cards layout
-          html = '<p align="center">\n'
+          html = '<p align=\"center\">\n'
           for repo in top_repos:
               name = repo['name']
               html += f'  <a href=\"https://github.com/RiteshGenAI/{name}\">\n'
-              html += f'    <img src=\"https://github-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo={name}&theme=calm\" height=\"120\" />\n'
+              html += f'    <img src=\"https://github-readme-stats.deno.dev/api/pin/?username=RiteshGenAI&repo={name}&theme=calm\" height=\"120\" />\n'
               html += '  </a>\n'
           html += '</p>'
 
@@ -67,7 +67,7 @@ jobs:
 
           # Replace the content between the comments
           pattern = r'<!-- RECENT_REPOS_START -->.*?<!-- RECENT_REPOS_END -->'
-          replacement = f'<!-- RECENT_REPOS_START -->\n{html}\n<!-- RECENT_REPOS_END -->'
+          replacement = f'<!-- RECENT_REPOS_START -->\\n{html}\\n<!-- RECENT_REPOS_END -->'
           new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
 
           # Write back to README.md
