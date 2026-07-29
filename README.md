@@ -86,10 +86,6 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
   <img src="https://gh-readme-stats.vercel.app/api/top-langs/?username=RiteshGenAI&theme=calm" alt="Top Languages" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=RiteshGenAI&theme=calm&cache_bust=1" alt="GitHub Streak" />
-</p>
-
 ---
 
 ## 🤝 Let's Connect & Collaborate!
