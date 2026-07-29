@@ -30,6 +30,27 @@ jobs:
         run: |
           pip install requests
 
+      - name: Generate GitHub Data Cards Locally
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: RiteshGenAI
+          BRANCH_NAME: main
+          AUTO_PUSH: true
+
+      - name: Generate Streak Stats Locally
+        run: |
+          # Clone streak-stats generator
+          git clone --depth 1 https://github.com/DenverCoder/streak-stats.git /tmp/streak-stats
+          cd /tmp/streak-stats
+          # Install dependencies if needed
+          npm install --production 2>/dev/null || true
+          # Generate streak SVG
+          node src/index.js -u RiteshGenAI -t calm -o streak-stats.svg
+          # Copy to repo
+          cp streak-stats.svg ${{ github.workspace }}/profile-summary-card-output/streak-stats.svg
+
       - name: Fetch and Update Repositories
         run: |
           python -c "
@@ -63,12 +84,10 @@ jobs:
               html += '  </a>\n'
           html += '</p>'
 
-          # Generate streak element with cache-buster
-          import time
-          cache_bust = int(time.time())
+          # Use local streak SVG
           streak_html = (
               '<p align=\"center\">\n'
-              f'  <img src=\"https://streak-stats.demolab.com/?user=RiteshGenAI&theme=calm&{cache_bust}\"'
+              '  <img src=\"./profile-summary-card-output/streak-stats.svg\"'
               ' alt=\"GitHub Streak\" />\n'
               '</p>'
           )
@@ -86,6 +105,19 @@ jobs:
           replacement_streak = f'<!-- STREAK_START -->\\n{streak_html}\\n<!-- STREAK_END -->'
           new_content = re.sub(pattern_streak, replacement_streak, new_content, flags=re.DOTALL)
 
+          # Update GitHub data cards to use local paths
+          pattern_cards = r'<!-- GITHUB_DATA_START -->.*?<!-- GITHUB_DATA_END -->'
+          replacement_cards = '''<!-- GITHUB_DATA_START -->
+<p align="center">
+  <img src="./profile-summary-card-output/stats.svg" height="200" />
+  <img src="./profile-summary-card-output/productive-time.svg" height="200" />
+</p>
+<p align="center">
+  <img src="./profile-summary-card-output/repos-per-language.svg" height="220" />
+</p>
+<!-- GITHUB_DATA_END -->'''
+          new_content = re.sub(pattern_cards, replacement_cards, new_content, flags=re.DOTALL)
+
           # Write back to README.md
           with open('README.md', 'w', encoding='utf-8') as f:
               f.write(new_content)
@@ -97,8 +129,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/RiteshGenAI/RiteshGenAI.git
-          git add README.md
+          git add README.md profile-summary-card-output/ -A
           git diff-index --quiet HEAD && exit 0
-          git commit -m "docs: auto-update featured repositories [skip ci]"
+          git commit -m "docs: auto-update featured repositories, streak, and profile cards [skip ci]"
           git pull --rebase origin main
           git push --force-with-lease origin main
