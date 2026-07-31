@@ -1,4 +1,4 @@
-# 🚀 Hi, I'm Ritesh Patil! 
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="40"> Hi, I'm Ritesh <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="40"> Patil! 
 ### **Lead / Senior AI Engineer @ Generative AI Center of Excellence (GenAICoE), NTT DATA**
 #### 🌐 *Core Team Member & Secretary @ AI Anytime*
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 🌟 About Me
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="30"> About Me
 
 > **"I didn't choose AI. AI chose the problems I couldn't stop thinking about."**
 
@@ -18,14 +18,14 @@ I am an engineer who went from writing ETL pipelines to architecting systems tha
 
 I don't just build chatbots or AI copilots. **I build complete products.** From architecture and data pipelines to cloud infra, APIs, AI orchestration, deployment, and optimization — I enjoy owning the entire lifecycle of intelligent systems.
 
-🎓 **Education**: M.Sc. in Data Science (AI & NLP) — **Liverpool John Moores University (LJMU), London**  
-🏆 **Recognition**: Recipient of the **"Mission Impossible Award"** & 2-Time **"Millennial of the Quarter"**  
-🤝 **Community**: Secretary at **AI Anytime** (Non-profit AI research & education community)  
-💡 **Commute Routine**: I read research papers during commutes and constantly explore new ways of combining AI, software engineering, and cloud technologies.  
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="20"> **Education**: M.Sc. in Data Science (AI & NLP) — **Liverpool John Moores University (LJMU), London**  
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" width="20"> **Recognition**: Recipient of the **"Mission Impossible Award"** & 2-Time **"Millennial of the Quarter"**  
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Handshake.png" width="20"> **Community**: Secretary at **AI Anytime** (Non-profit AI research & education community)  
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Light%20Bulb.png" width="20"> **Commute Routine**: I read research papers during commutes and constantly explore new ways of combining AI, software engineering, and cloud technologies.  
 
 ---
 
-## 🚀 What I've Built Over The Years
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="30"> What I've Built Over The Years
 
 🔸 **Enterprise GenAI Platforms** & AI products on AWS and Azure-native services.  
 🔸 **Agentic AI & Multi-Agent Systems** that automate complex business workflows.  
@@ -38,7 +38,7 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 
 ---
 
-## 🛠️ Tech Stack & Capabilities
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="30"> Tech Stack & Capabilities
 
 | Category | Technologies & Tooling |
 | :--- | :--- |
@@ -57,7 +57,7 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 
 ---
 
-## 🛡️ Featured Projects
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" width="30"> Featured Projects
 
 <!-- RECENT_REPOS_START -->
 <p align="center">
@@ -82,7 +82,7 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 
 ---
 
-## 📊 GitHub Analytics & Insights
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="30"> GitHub Analytics & Insights
 
 <p align="center">
   <img src="https://gh-readme-stats.vercel.app/api?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true" alt="Ritesh's GitHub Stats" />
@@ -98,7 +98,7 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 </p>
 <!-- STREAK_END -->
 
-## 🧩 GitHub Data
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Puzzle%20Piece.png" width="30"> GitHub Data
 
 <!-- GITHUB_DATA_START -->
 <p align="center">
@@ -112,7 +112,7 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 
 ---
 
-## 🤝 Let's Connect & Collaborate!
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Handshake.png" width="30"> Let's Connect & Collaborate!
 
 > **"For me, GenAI isn't about chasing the latest model release. It's about engineering systems that are scalable, reliable, secure, and capable of delivering measurable business value in production."**
 
