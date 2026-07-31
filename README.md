@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="40"> Hi, I'm Ritesh <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="40"> Patil! 
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="40"> Hi, I'm Ritesh  Patil! 
 ### **Lead / Senior AI Engineer @ Generative AI Center of Excellence (GenAICoE), NTT DATA**
 #### 🌐 *Core Team Member & Secretary @ AI Anytime*
 
