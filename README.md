@@ -20,7 +20,7 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="20"> **Education**: M.Sc. in Data Science (AI & NLP) — **Liverpool John Moores University (LJMU), London**  
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" width="20"> **Recognition**: Recipient of the **"Mission Impossible Award"** & 2-Time **"Millennial of the Quarter"**  
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Handshake.png" width="20"> **Community**: Secretary at **AI Anytime** (Non-profit AI research & education community)  
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/People%20Hugging.png" width="20"> **Community**: Secretary at **AI Anytime** (Non-profit AI research & education community)  
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Light%20Bulb.png" width="20"> **Commute Routine**: I read research papers during commutes and constantly explore new ways of combining AI, software engineering, and cloud technologies.  
 
 ---
@@ -112,7 +112,7 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Handshake.png" width="30"> Let's Connect & Collaborate!
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/People%20Hugging.png" width="30"> Let's Connect & Collaborate!
 
 > **"For me, GenAI isn't about chasing the latest model release. It's about engineering systems that are scalable, reliable, secure, and capable of delivering measurable business value in production."**
 
