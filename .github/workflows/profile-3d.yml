@@ -25,6 +25,19 @@ jobs:
           ls -la profile-3d-contrib/ || echo "DIRECTORY NOT FOUND"
           echo "=== SVG file count ==="
           ls profile-3d-contrib/*.svg 2>/dev/null | wc -l
+          echo "=== SVG hashes ==="
+          md5sum profile-3d-contrib/*.svg
+          echo "=== Comparing with committed versions ==="
+          for f in profile-3d-contrib/*.svg; do
+            committed_hash=$(git show HEAD:"$f" | md5sum | awk '{print $1}')
+            current_hash=$(md5sum "$f" | awk '{print $1}')
+            if [ "$committed_hash" = "$current_hash" ]; then
+              echo "UNCHANGED: $f"
+            else
+              echo "CHANGED:   $f"
+            fi
+          done
+
       - name: Commit and Push SVGs
         run: |
           set -euo pipefail
@@ -32,6 +45,6 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/RiteshGenAI/RiteshGenAI.git
           git add profile-3d-contrib/
-          git diff-index --cached --quiet HEAD && exit 0
+          git diff-index --cached --quiet HEAD && echo "No changes to commit" && exit 0
           git commit -m "chore: update 3D contribution graph SVGs"
           git push origin main
