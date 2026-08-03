@@ -1,21 +1,14 @@
 name: Update Dynamic Repositories
 
-# This workflow updates the README with dynamic content
-# It runs daily at midnight UTC and on manual trigger
-
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight UTC
-  workflow_dispatch: # Allows manual trigger
-  push:
-    branches:
-      - main
-      - master
+    - cron: '0 0 * * *'
+      timezone: 'Asia/Kolkata'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
-# Apply to all jobs in the workflow
 env:
   ACTIONS_RUNNER_REQUIRE_JAVASCRIPT_ACTION_NODE_VERSION: "24"
 
@@ -37,6 +30,12 @@ jobs:
         run: |
           pip install requests
 
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
       - name: Fetch and Update Repositories
         run: |
           cat > update_readme.py << 'PYEOF'
@@ -44,7 +43,6 @@ jobs:
           import re
           import time
 
-          # Fetch public repositories for user RiteshGenAI
           url = 'https://api.github.com/users/RiteshGenAI/repos?sort=updated&per_page=50'
           response = requests.get(url)
           repos = response.json()
@@ -53,16 +51,12 @@ jobs:
               print('Error fetching repos:', repos)
               exit(1)
 
-          # Filter out the profile README repository itself and forks
           filtered = [r for r in repos if r['name'].lower() != 'riteshgenai' and not r['fork']]
 
-          # Sort by stars first, then by most recently updated
           filtered.sort(key=lambda r: (r.get('stargazers_count', 0), r.get('updated_at', '')), reverse=True)
 
-          # Take the top 4 repositories
           top_repos = filtered[:4]
 
-          # Generate pin cards layout
           html = '<p align="center">\n'
           for repo in top_repos:
               name = repo['name']
@@ -71,7 +65,6 @@ jobs:
               html += '  </a>\n'
           html += '</p>'
 
-          # Generate streak element with cache-buster to avoid stale cache
           cache_bust = int(time.time())
           streak_html = (
               '<p align="center">\n'
@@ -80,11 +73,9 @@ jobs:
               '</p>'
           )
 
-          # Read current README.md
           with open('README.md', 'r', encoding='utf-8') as f:
               content = f.read()
 
-          # Replace both featured repos and streak stats
           pattern_repos = r'<!-- RECENT_REPOS_START -->.*?<!-- RECENT_REPOS_END -->'
           replacement_repos = f'<!-- RECENT_REPOS_START -->\\n{html}\\n<!-- RECENT_REPOS_END -->'
           new_content = re.sub(pattern_repos, replacement_repos, content, flags=re.DOTALL)
@@ -93,7 +84,6 @@ jobs:
           replacement_streak = f'<!-- STREAK_START -->\\n{streak_html}\\n<!-- STREAK_END -->'
           new_content = re.sub(pattern_streak, replacement_streak, new_content, flags=re.DOTALL)
 
-          # Update GitHub data cards back to working external URLs
           pattern_cards = r'<!-- GITHUB_DATA_START -->.*?<!-- GITHUB_DATA_END -->'
           replacement_cards = (
               '<!-- GITHUB_DATA_START -->\n'
@@ -104,7 +94,6 @@ jobs:
           )
           new_content = re.sub(pattern_cards, replacement_cards, new_content, flags=re.DOTALL)
 
-          # Write back to README.md
           with open('README.md', 'w', encoding='utf-8') as f:
               f.write(new_content)
           PYEOF
@@ -116,8 +105,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/RiteshGenAI/RiteshGenAI.git
-          git add README.md
+          git add -A .
           git diff-index --quiet HEAD && exit 0
-          git commit -m "docs: auto-update featured repositories [skip ci]"
+          git commit -m "docs: update README and 3D contribution graph"
           git pull --rebase origin main
           git push --force-with-lease origin main
