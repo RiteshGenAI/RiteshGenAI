@@ -46,5 +46,5 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/RiteshGenAI/RiteshGenAI.git
           git add profile-3d-contrib/
           git diff-index --cached --quiet HEAD && echo "No changes to commit" && exit 0
-          git commit -m "chore: update 3D contribution graph SVGs"
+          git commit -m "chore: update 3D contribution graph SVGs [skip ci]"
           git push origin main
