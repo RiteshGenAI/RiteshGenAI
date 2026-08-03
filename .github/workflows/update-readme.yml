@@ -17,7 +17,7 @@ permissions:
 
 # Apply to all jobs in the workflow
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+  ACTIONS_RUNNER_REQUIRE_JAVASCRIPT_ACTION_NODE_VERSION: "24"
 
 jobs:
   update-readme:
@@ -112,11 +112,10 @@ jobs:
           replacement_cards = (
               '<!-- GITHUB_DATA_START -->\n'
               '<p align="center">\n'
-              '  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RiteshGenAI&theme=calm" height="200" />\n'
-              '  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RiteshGenAI&theme=calm" height="200" />\n'
+              '  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RiteshGenAI&theme=calm" alt="GitHub Activity Graph" />\n'
               '</p>\n'
               '<p align="center">\n'
-              '  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RiteshGenAI&theme=calm" height="220" />\n'
+              '  <img src="https://github-readme-stats.vercel.app/api?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true" height="200" />\n'
               '</p>\n'
               '<!-- GITHUB_DATA_END -->'
           )
