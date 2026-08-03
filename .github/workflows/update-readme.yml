@@ -39,7 +39,7 @@ jobs:
 
       - name: Fetch and Update Repositories
         run: |
-          python -c "
+          cat > update_readme.py << 'PYEOF'
           import requests
           import re
           import time
@@ -63,20 +63,20 @@ jobs:
           top_repos = filtered[:4]
 
           # Generate pin cards layout
-          html = '<p align=\"center\">\n'
+          html = '<p align="center">\n'
           for repo in top_repos:
               name = repo['name']
-              html += f'  <a href=\"https://github.com/RiteshGenAI/{name}\">\n'
-              html += f'    <img src=\"https://gh-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo={name}&theme=calm\" height=\"120\" />\n'
+              html += f'  <a href="https://github.com/RiteshGenAI/{name}">\n'
+              html += f'    <img src="https://gh-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo={name}&theme=calm" height="120" />\n'
               html += '  </a>\n'
           html += '</p>'
 
           # Generate streak element with cache-buster to avoid stale cache
           cache_bust = int(time.time())
           streak_html = (
-              '<p align=\"center\">\n'
-              f'  <img src=\"https://streak-stats.demolab.com/?user=RiteshGenAI&theme=calm&{cache_bust}\"'
-              ' alt=\"GitHub Streak\" />\n'
+              '<p align="center">\n'
+              f'  <img src="https://streak-stats.demolab.com/?user=RiteshGenAI&theme=calm&{cache_bust}"'
+              ' alt="GitHub Streak" />\n'
               '</p>'
           )
 
@@ -94,7 +94,6 @@ jobs:
           new_content = re.sub(pattern_streak, replacement_streak, new_content, flags=re.DOTALL)
 
           # Update GitHub stats and top-langs cards with cache-buster
-          import time
           cache_bust = int(time.time())
           new_content = re.sub(
               r'(<img src="https://gh-readme-stats\.vercel\.app/api\?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true")',
@@ -127,7 +126,8 @@ jobs:
           # Write back to README.md
           with open('README.md', 'w', encoding='utf-8') as f:
               f.write(new_content)
-          "
+          PYEOF
+          python update_readme.py
 
       - name: Commit and Push Changes
         run: |
