@@ -105,7 +105,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/RiteshGenAI/RiteshGenAI.git
-          git add -A .
+          git add README.md profile-3d-contrib/
           git diff-index --quiet HEAD && exit 0
           git commit -m "docs: update README and 3D contribution graph"
           git pull --rebase origin main
