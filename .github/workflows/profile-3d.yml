@@ -41,8 +41,8 @@ jobs:
       - name: Commit and Push SVGs
         run: |
           set -euo pipefail
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "RiteshGenAI"
+          git config --global user.email "ritzpatil12345@gmail.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/RiteshGenAI/RiteshGenAI.git
           git add profile-3d-contrib/
           git diff-index --cached --quiet HEAD && echo "No changes to commit" && exit 0
