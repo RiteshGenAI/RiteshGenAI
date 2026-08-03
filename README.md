@@ -102,9 +102,6 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 
 <!-- GITHUB_DATA_START -->
 <p align="center">
-  <img src="https://gh-readme-stats.vercel.app/api?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true" height="200" />
-</p>
-<p align="center">
   <img src="./profile-3d-contrib/profile-night-green.svg" alt="GitHub 3D Contribution Graph" />
 </p>
 <!-- GITHUB_DATA_END -->
