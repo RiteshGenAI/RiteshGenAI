@@ -111,13 +111,10 @@ jobs:
           replacement_cards = (
               '<!-- GITHUB_DATA_START -->\n'
               '<p align="center">\n'
-              '  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RiteshGenAI&theme=calm" alt="GitHub Activity Graph" />\n'
-              '</p>\n'
-              '<p align="center">\n'
               '  <img src="https://gh-readme-stats.vercel.app/api?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true" height="200" />\n'
               '</p>\n'
               '<p align="center">\n'
-              '  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="GitHub 3D Contribution Graph" />\n'
+              '  <img src="./profile-3d-contrib/profile-night-green.svg" alt="GitHub 3D Contribution Graph" />\n'
               '</p>\n'
               '<!-- GITHUB_DATA_END -->'
           )
