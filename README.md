@@ -105,7 +105,7 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=RiteshGenAI&theme=calm" alt="GitHub Activity Graph" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true" height="200" />
+  <img src="https://gh-readme-stats.vercel.app/api?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true" height="200" />
 </p>
 <!-- GITHUB_DATA_END -->
 
