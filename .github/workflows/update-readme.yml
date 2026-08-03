@@ -5,6 +5,10 @@ on:
     - cron: '0 0 * * *'
       timezone: 'Asia/Kolkata'
   workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
 
 permissions:
   contents: write
@@ -29,21 +33,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests
-
-      - name: Generate 3D Contribution Graph
-        uses: yoshi389111/github-profile-3d-contrib@latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-
-      - name: Verify 3D SVG Generation
-        run: |
-          echo "=== profile-3d-contrib directory ==="
-          ls -la profile-3d-contrib/ || echo "DIRECTORY NOT FOUND"
-          echo "=== SVG file count ==="
-          ls profile-3d-contrib/*.svg 2>/dev/null | wc -l
-          echo "=== Checking for profile-night-green.svg ==="
-          test -f profile-3d-contrib/profile-night-green.svg && echo "FOUND" || echo "MISSING"
 
       - name: Fetch and Update Repositories
         run: |
@@ -115,7 +104,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/RiteshGenAI/RiteshGenAI.git
-          git add README.md profile-3d-contrib/
+          git add README.md
           if git diff-index --cached --quiet HEAD; then
             echo "Nothing to commit"
             exit 0

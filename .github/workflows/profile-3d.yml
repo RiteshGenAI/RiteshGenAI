@@ -1,0 +1,37 @@
+name: GitHub-Profile-3D-Contrib
+
+on:
+  schedule:
+    - cron: "59 23 * * *"
+      timezone: 'Asia/Kolkata'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v5
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Verify 3D SVG Generation
+        run: |
+          echo "=== profile-3d-contrib directory ==="
+          ls -la profile-3d-contrib/ || echo "DIRECTORY NOT FOUND"
+          echo "=== SVG file count ==="
+          ls profile-3d-contrib/*.svg 2>/dev/null | wc -l
+      - name: Commit and Push SVGs
+        run: |
+          set -euo pipefail
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/RiteshGenAI/RiteshGenAI.git
+          git add profile-3d-contrib/
+          git diff-index --cached --quiet HEAD && exit 0
+          git commit -m "chore: update 3D contribution graph SVGs"
+          git push origin main
