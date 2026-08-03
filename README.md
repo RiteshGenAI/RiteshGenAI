@@ -85,11 +85,11 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="30"> GitHub Analytics & Insights
 
 <p align="center">
-  &1785741118 alt="Ritesh's GitHub Stats" />
+  <img src="https://gh-readme-stats.vercel.app/api?username=RiteshGenAI&show_icons=true&theme=calm&count_private=true" alt="Ritesh's GitHub Stats" />
 </p>
 
 <p align="center">
-  &1785741118 alt="Top Languages / Most Used Stack" />
+  <img src="https://gh-readme-stats.vercel.app/api/top-langs/?username=RiteshGenAI&theme=calm&langs_count=10" alt="Top Languages / Most Used Stack" />
 </p>
 
 <!-- STREAK_START -->
