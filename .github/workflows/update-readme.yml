@@ -107,6 +107,7 @@ jobs:
               f.write(new_content)
           PYEOF
           python update_readme.py
+          rm -f update_readme.py
 
       - name: Commit and Push Changes
         run: |
