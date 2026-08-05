@@ -62,16 +62,16 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 <!-- RECENT_REPOS_START -->
 <p align="center">
   <a href="https://github.com/RiteshGenAI/Sentinel">
-    <img src="https://gh-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=Sentinel&theme=calm" height="120" />
+    <img src="https://img.shields.io/github/stars/RiteshGenAI/Sentinel?style=for-the-badge&logo=github&label=Stars&color=yellow" alt="Sentinel stars" />
   </a>
   <a href="https://github.com/RiteshGenAI/AIAgencyOS">
-    <img src="https://gh-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=AIAgencyOS&theme=calm" height="120" />
+    <img src="https://img.shields.io/github/stars/RiteshGenAI/AIAgencyOS?style=for-the-badge&logo=github&label=Stars&color=yellow" alt="AIAgencyOS stars" />
   </a>
   <a href="https://github.com/RiteshGenAI/CodeGenie">
-    <img src="https://gh-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=CodeGenie&theme=calm" height="120" />
+    <img src="https://img.shields.io/github/stars/RiteshGenAI/CodeGenie?style=for-the-badge&logo=github&label=Stars&color=yellow" alt="CodeGenie stars" />
   </a>
   <a href="https://github.com/RiteshGenAI/openai_whisper_transcribe_yt_videos">
-    <img src="https://gh-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo=openai_whisper_transcribe_yt_videos&theme=calm" height="120" />
+    <img src="https://img.shields.io/github/stars/RiteshGenAI/openai_whisper_transcribe_yt_videos?style=for-the-badge&logo=github&label=Stars&color=yellow" alt="openai_whisper_transcribe_yt_videos stars" />
   </a>
 </p>
 <!-- RECENT_REPOS_END -->
@@ -94,7 +94,7 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 
 <!-- STREAK_START -->
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=RiteshGenAI&theme=calm&1785933285" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=RiteshGenAI&theme=calm&1785934376" alt="GitHub Streak" />
 </p>
 <!-- STREAK_END -->
 
