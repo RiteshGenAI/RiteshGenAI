@@ -62,8 +62,9 @@ jobs:
           html = '<p align="center">\n'
           for repo in top_repos:
               name = repo['name']
+              stars = repo.get('stargazers_count', 0)
               html += f'  <a href="https://github.com/RiteshGenAI/{name}">\n'
-              html += f'    <img src="https://gh-readme-stats.vercel.app/api/pin/?username=RiteshGenAI&repo={name}&theme=calm" height="120" />\n'
+              html += f'    <img src="https://img.shields.io/github/stars/RiteshGenAI/{name}?style=for-the-badge&logo=github&label=Stars&color=yellow" alt="{name} stars" />\n'
               html += '  </a>\n'
           html += '</p>'
 
