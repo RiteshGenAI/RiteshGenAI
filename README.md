@@ -62,16 +62,16 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 <!-- RECENT_REPOS_START -->
 <p align="center">
   <a href="https://github.com/RiteshGenAI/Sentinel">
-    <img src="https://img.shields.io/github/stars/RiteshGenAI/Sentinel?style=for-the-badge&logo=github&label=Stars&color=yellow" alt="Sentinel stars" />
+    <img src="https://img.shields.io/github/stars/RiteshGenAI/Sentinel?style=for-the-badge&logo=github&label=Sentinel&color=yellow" alt="Sentinel stars" />
   </a>
   <a href="https://github.com/RiteshGenAI/AIAgencyOS">
-    <img src="https://img.shields.io/github/stars/RiteshGenAI/AIAgencyOS?style=for-the-badge&logo=github&label=Stars&color=yellow" alt="AIAgencyOS stars" />
+    <img src="https://img.shields.io/github/stars/RiteshGenAI/AIAgencyOS?style=for-the-badge&logo=github&label=AIAgencyOS&color=yellow" alt="AIAgencyOS stars" />
   </a>
   <a href="https://github.com/RiteshGenAI/CodeGenie">
-    <img src="https://img.shields.io/github/stars/RiteshGenAI/CodeGenie?style=for-the-badge&logo=github&label=Stars&color=yellow" alt="CodeGenie stars" />
+    <img src="https://img.shields.io/github/stars/RiteshGenAI/CodeGenie?style=for-the-badge&logo=github&label=CodeGenie&color=yellow" alt="CodeGenie stars" />
   </a>
   <a href="https://github.com/RiteshGenAI/openai_whisper_transcribe_yt_videos">
-    <img src="https://img.shields.io/github/stars/RiteshGenAI/openai_whisper_transcribe_yt_videos?style=for-the-badge&logo=github&label=Stars&color=yellow" alt="openai_whisper_transcribe_yt_videos stars" />
+    <img src="https://img.shields.io/github/stars/RiteshGenAI/openai_whisper_transcribe_yt_videos?style=for-the-badge&logo=github&label=openai_whisper_transcribe_yt_videos&color=yellow" alt="openai_whisper_transcribe_yt_videos stars" />
   </a>
 </p>
 <!-- RECENT_REPOS_END -->
@@ -94,7 +94,7 @@ I don't just build chatbots or AI copilots. **I build complete products.** From 
 
 <!-- STREAK_START -->
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=RiteshGenAI&theme=calm&1785936630" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=RiteshGenAI&theme=calm&1785937046" alt="GitHub Streak" />
 </p>
 <!-- STREAK_END -->
 
